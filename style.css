@@ -19,6 +19,7 @@ body {
   background-color: var(--lightGrayishBlue);
   display: flex;
   justify-content: center;
+    height: 100vh;
   align-items: center;
 }
 .container {
@@ -108,6 +109,5 @@ body {
   .container {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
-    height: 100vh;
   }
 }
